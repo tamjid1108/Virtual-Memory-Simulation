@@ -1,0 +1,120 @@
+[INITIALIZED PAGE TABLE]
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          0 |         -1 |          0 |            0 |
+|                    1 |          0 |         -1 |          0 |            0 |
+|                    2 |          0 |         -1 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-0 in R mode
+[PAGE FAULT] Page-0 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-0 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          3 |          0 |            0 |
+|                    1 |          0 |         -1 |          0 |            0 |
+|                    2 |          0 |         -1 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-2 in R mode
+[PAGE FAULT] Page-2 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-2 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          3 |          0 |            0 |
+|                    1 |          0 |         -1 |          0 |            0 |
+|                    2 |          1 |          2 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-1 in R mode
+[PAGE FAULT] Page-1 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-1 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          3 |          0 |            0 |
+|                    1 |          1 |          1 |          0 |            0 |
+|                    2 |          1 |          2 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-3 in W mode
+[PAGE FAULT] Page-3 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-3 in W mode
+[DIRTY BIT SET] for Page-3
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          0 |         -1 |          0 |            0 |
+|                    1 |          1 |          1 |          0 |            0 |
+|                    2 |          1 |          2 |          0 |            0 |
+|                    3 |          1 |          3 |          1 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-0 in R mode
+[PAGE FAULT] Page-0 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-0 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          2 |          0 |            0 |
+|                    1 |          1 |          1 |          0 |            0 |
+|                    2 |          0 |         -1 |          0 |            0 |
+|                    3 |          1 |          3 |          1 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-2 in R mode
+[PAGE FAULT] Page-2 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-2 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          2 |          0 |            0 |
+|                    1 |          0 |         -1 |          0 |            0 |
+|                    2 |          1 |          1 |          0 |            0 |
+|                    3 |          1 |          3 |          1 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-1 in R mode
+[PAGE FAULT] Page-1 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-1 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          2 |          0 |            0 |
+|                    1 |          1 |          3 |          0 |            0 |
+|                    2 |          1 |          1 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          0 |         -1 |          0 |            0 |
+
+[REFERENCE] for page-4 in W mode
+[PAGE FAULT] Page-4 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-4 in W mode
+[DIRTY BIT SET] for Page-4
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          0 |         -1 |          0 |            0 |
+|                    1 |          1 |          3 |          0 |            0 |
+|                    2 |          1 |          1 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          1 |          2 |          1 |            0 |
+
+[REFERENCE] for page-0 in R mode
+[PAGE FAULT] Page-0 is not in RAM
+[CONTROL BACK TO MMU]
+[ACCESSING] Page-0 in R mode
+
+|             Page No. |      Valid |  Frame No. |      Dirty |    Requested |
+|                    0 |          1 |          1 |          0 |            0 |
+|                    1 |          1 |          3 |          0 |            0 |
+|                    2 |          0 |         -1 |          0 |            0 |
+|                    3 |          0 |         -1 |          0 |            0 |
+|                    4 |          1 |          2 |          1 |            0 |
+
+[MMU FINISHED SUCCESSFULLY]
